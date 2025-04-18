@@ -1,0 +1,38 @@
+<app-sidenav></app-sidenav>
+
+<section class="contact-card">
+    <h2 class="head">Projects</h2>
+    <hr style="border: solid black;">
+  
+    <div class="projects-container">
+      
+      <!-- project-1 -->
+      <div class="pro-card"
+         (click)="onSpotify()">
+          <h2><b>1. Spotify clone</b></h2>
+       
+      </div>
+
+      <!-- project-2 -->
+      <div class="pro-card"
+      (click)="onWeather()">
+        <h2>2. Weather-app</h2>
+      </div>
+  
+      <!-- project-3 -->
+      <div class="pro-card"
+      (click)="onBudget()">
+        <h2>3. Budget-planner</h2>
+      </div>
+  
+  
+      <!-- project-4 -->
+      <div class="pro-card"
+      (click)="onPortfolio()">
+        <h2>4. Portfolio</h2>
+      </div>
+     
+  
+    </div>
+    <div class="backbtn" (click)="onBack()">Back</div>
+  </section>

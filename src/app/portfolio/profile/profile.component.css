@@ -1,0 +1,43 @@
+.profile-container {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: left;
+    display: flex;
+    margin-top:30px;
+
+   
+    
+  }
+  .container{
+    display: flex;
+    
+    
+  }
+  
+  .profile-pic {
+    width: 278px;
+    height: 463px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+  h2 {
+    margin-bottom: 0.2rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+ .info-container{
+  margin-left: 10px;
+  font-family: 'Arial';
+  font-size: 16px;
+}
+  
+
+  
+  

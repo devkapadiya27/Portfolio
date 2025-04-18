@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  }
+  
+  
+  
+  .contact-card {
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 4rem auto;
+    max-width: 500px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #D6EAF8;
+   
+  }
+  
+  .contact-card h2 {
+    background-color: #1B2631;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .contact-card p {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+  }
+
+
+  .backbtn {
+    font-size: 15px;            /* fixed from 'size' */
+    text-align: center;
+    border: 1px solid black;
+    width: 100px;               /* or use % like 10%, but 100px is more consistent */
+    margin: 14px auto;          /* centers horizontally */
+    padding: 6px 10px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .backbtn:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+  }
+   
+  
+ 
